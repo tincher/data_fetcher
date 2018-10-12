@@ -39,7 +39,7 @@ class DBHandler:
             'CREATE TABLE bb_items (id INT PRIMARY KEY, sku VARCHAR(30), wholesalePrice FLOAT, height FLOAT, width FLOAT, depth FLOAT)',
             'CREATE TABLE bb_item_information (id INT, name VARCHAR(100), sku VARCHAR(30), isoCode VARCHAR(2))',
             'CREATE TABLE bb_item_categories (id INT, product INT, category INT)',
-            'CREATE TABLE bb_categories (id INT PRIMARY KEY, name VARCHAR(30), parentCategory INT)'
+            'CREATE TABLE bb_categories (id INT PRIMARY KEY, name VARCHAR(100), parentCategory INT)'
         ]
         name_list = [
             'catalogue',
